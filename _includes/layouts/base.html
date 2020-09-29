@@ -9,7 +9,7 @@
             height: 100vh;
             width: 100%;
             overflow-x: hidden;
-            font-size: 1em;
+            font-size: 3.2em;
             line-height: 1.8;
             font-family: "PT Sans", sans-serif;
             font-display: swap;
@@ -36,30 +36,34 @@
             width: 100vw;
             margin: 2em 0;
             background: antiquewhite;
+            display: flex;
+            place-items: center;
         }
     </style>
 </head>
 
 <body>
     <section>
-        <p>Scroll down a little</p>
+        <p>Scroll down</p>
     </section>
     <section>
-        <p>Scroll down a little more .... </p>
+        <p>Keep scrolling ...</p>
     </section>
     <section>
-        <p>Scroll down a little more .... </p>
+        <p>You gotta keep scrolling .... </p>
     </section>
     <section>
-        <p>Scroll down a little more .... </p>
+        <p>Just a bit more .... </p>
     </section>
     <section>
-        <p>Scroll down a little more .... </p>
+        <p>Almost there .... </p>
     </section>
     <section>
-        <p>Scroll down a little more .... </p>
+        <p>Coming soon .... </p>
     </section>
-    {{ content | safe }}
+    <section>
+        {{ content | safe }}
+    </section>
 </body>
 
 </html>
